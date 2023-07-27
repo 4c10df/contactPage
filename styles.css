@@ -1,55 +1,75 @@
 body{
-   background-color:#FFFFFF;
-   font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    margin-block: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.header {
+    background-color: #EBF5DA;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 1440px;
 }
 
 
-/*********************************first container**********************************/
-.first-container{
-  background-color:#F7FFE5 ;
-  box-sizing: inherit;
-  margin: -11px;
-  outline: none;
-  padding: 0;
+
+
+
+
+
+
+/*********************************site-wrapper**********************************/
+.site-wrapper{
+    margin: auto;
+    padding: 0 0;
+    width: 1241px;
+  
 }
 
 
 /******************************** Nav bar ***************************************/
 .nav-bar{
-  background-color: #FFFFFF;
-  border-radius: 10px;
-  width: 1241px;
-  height: 80px;
-  top: 40px;
-  left: 90px;
-  margin: auto;
-  padding: 0 0 0 0;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    height: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: -1%;
+    padding-bottom: 7%;
+    margin: -74px 0 0 0px;
+ /* display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2%;*/
+}
+  
+.footer-link{
+    color: black;
+    font-family: 'Nunito', sans-serif;
 }
 
-.logo {
-    height: 80px;
-    margin:0px 0 0px -88px;
-}
 
 ul {
     display: flex;
-    gap: 50px;
+    gap: 10px;
+    /*display: flex;
+    gap: 43px;
     align-content: stretch;
     flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: center;*/
 }
 
-.nav-txt{
-    display: flex;
-    gap: 50px;
-    align-content: stretch;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
+
 
 /** contact us **/
 .btn {
@@ -88,27 +108,81 @@ h1 {
   line-height: 64px;
   font-weight: 700;
   font-size: 48px;  
-  width: 685px;
+  width: 577px;
   height: 128px;
 
 }
 
 .h1_txt{
-    margin:158px 0 0 369px;
+    margin:158px 0 0 45px;
    
 }
 
 
 
 .img{
-    margin:-210px 0 0 56%;
+    margin:-295px 0 0 59%;
 
 }
 
 /***************************** form ******************************/
+
+.email-and-forom-box{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 700px;
+    margin: 466px 0 0 0; 
+    width: 90%;
+}
+
+
+form{
+    margin: 13px 0 0 0;
+    /*display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;*/
+    /* justify-content: space-evenly; */
+    
+}
+
 input{
     background-color:#FFFAF7;
-    border: 0.2px solid rgba(30, 30, 30, 1)
+    border: 0.2px solid #757171;
+    width: 498px;
+    height: 54px;
+    border-radius: 10px;
+    
+}
+
+.mail-box1{
+    /*display: flex;
+    justify-content: space-evenly;
+    align-items: normal;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;*/
+}
+
+.mail-box2{
+    margin: 0px 0 0 28px;
+}
+
+textarea{
+    background-color:#FFFAF7;
+    border: 0.2px solid#757171;
+    width: 1030px;
+    height: 150px;
+    border-radius: 10px;
+
+}
+
+label{
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
 }
 
 
@@ -116,7 +190,7 @@ input{
     background: #F58634;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
-    width: 177px;
+    width: 286px;
     height: 54px;
     border-radius: 100px;
     color: #FFFFFF;
@@ -124,7 +198,8 @@ input{
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    padding: 10px;
+    margin: 46px 0 0 0px;
+    padding: 0px;
     border: solid #F58634 0;
     text-decoration: none;
     display: inline-block;
@@ -140,3 +215,51 @@ input{
     border-radius: 20px;
     text-decoration: none;
 }
+
+
+/** footer**/
+
+footer{
+    color: #F9FAF8;
+    margin: 84px 0 0 0px;
+}
+
+.hey-can-u{
+    margin: 35px 0 0 -103px;
+    
+}    
+
+
+.please{
+    margin: -586px 0 0 -11px;
+}
+
+
+.try-too{
+    margin: 37px 0 0 -39px;
+    color: #FFFFFF;
+}
+.get{
+    margin:-228px 0 0 497px;
+    color: #FFFFFF;
+}
+
+.me{
+    margin: -232px 0 0 965px;
+    color: #FFFFFF;
+}
+.a{
+    margin: 143px 0 0 -31px;
+    color: #FFFFFF;
+}
+
+.gift{
+    margin: -158px 0 0 511px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+
+
+
+
